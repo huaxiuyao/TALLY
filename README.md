@@ -16,7 +16,7 @@ pip install wilds
 
   * **VLCS:** Download from https://drive.google.com/uc?id=1skwblH1_okBwxWxmRsp9_qi15hyPpxg8
 
-  * **PACS: **Download from  https://drive.google.com/uc?id=1JFr8f805nMUelQWWmfnJR3y4_SYoN5Pd
+  * **PACS:**Download from  https://drive.google.com/uc?id=1JFr8f805nMUelQWWmfnJR3y4_SYoN5Pd
 
   * **OfficeHome:** Download from https://cornell.box.com/shared/static/xwsbubtcr8flqfuds5f6okqbr3z0w82t
 
