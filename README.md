@@ -37,7 +37,17 @@ pip install wilds
 ## Run experiments
 
 ```python
-python main.py --dataset Dataset --data-dir /Your/Path/to/Data --split suffix of split file 
+python main.py --dataset {dataset_name} --data-dir {data_dir} --split {suffix_of_split_file}
+```
+
+Examples on **VLCS:**
+
+```
+python main.py --dataset VLCS --data-dir ./data --split sub
+python main.py --dataset VLCS --data-dir ./data --split SUN09
+python main.py --dataset VLCS --data-dir ./data --split VOC2007
+python main.py --dataset VLCS --data-dir ./data --split Caltech101
+python main.py --dataset VLCS --data-dir ./data --split LabelMe
 ```
 
 ## Citation
@@ -45,13 +55,15 @@ python main.py --dataset Dataset --data-dir /Your/Path/to/Data --split suffix of
 If TALLY is useful or relevant to your research, please kindly recognize our contributions by citing our paper:
 
 ```
-@article{Yang2023Tally,
-  title={Multi-Domain Long-Tailed Learning by Augmenting Disentangled Representations},
-  author={Yang, Xinyu and Yao, Huaxiu and Zhou, Allan and Finn, Chelsea},
-  journal={Trans. Mach. Learn. Res.},
-  year={2023},
-  volume={2022},
-  url={https://api.semanticscholar.org/CorpusID:253116790}
+@article{
+yang2023multidomain,
+title={Multi-Domain Long-Tailed Learning by Augmenting Disentangled Representations},
+author={Xinyu Yang and Huaxiu Yao and Allan Zhou and Chelsea Finn},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2023},
+url={https://openreview.net/forum?id=4UXJhNSbwd},
+note={}
 }
 ```
 
